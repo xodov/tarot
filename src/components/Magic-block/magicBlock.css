@@ -1,0 +1,58 @@
+.magic-block {
+    width: 100vw;
+    height: auto;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(79, 0, 112) 0%, rgb(181, 95, 181) 100%);
+    border-bottom: 5px solid white;
+}
+
+.magic-block h2 {
+    margin-top: 5vh;
+    color: white;
+    padding: 25px 150px;
+    border: 3px solid white;
+    background: black;
+}
+
+.magic-block .magic-oracul {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.magic-block .magic-oracul .row {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.magic-block .magic-oracul .row a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.magic-block .magic-oracul .row a:hover {
+    transform: scale(1.1, 1.1);
+    color: white;
+}
+
+.magic-block .magic-oracul .row a>img {
+    width: 200px;
+    user-select: none;
+}
+
+.magic-block .row p {
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    user-select: none;
+}

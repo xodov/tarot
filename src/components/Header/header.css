@@ -1,0 +1,69 @@
+.header {
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    z-index: 1005;
+}
+
+.header h1 {
+    color: violet;
+}
+
+.header .searching {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.header #search {
+    width: 250px;
+    padding: 5px 10px 5px 10px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    outline: none;
+}
+
+.header #finder {
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    background: darkviolet;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.header .nav {
+    display: flex;
+    gap: 50px;
+}
+
+.header .nav li {
+    list-style: none;
+    transition: 0.5s;
+}
+
+.header .nav li:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.header .nav li>a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.header .nav li>.active {
+    border-bottom: 3px solid violet;
+}
+
+.header .nav li>a:hover {
+    color: darkviolet;
+}

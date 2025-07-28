@@ -1,0 +1,60 @@
+.main {
+    width: 100vw;
+    height: 90vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(181, 95, 181) 0%, rgb(79, 0, 112) 100%);
+    border-bottom: 5px solid white;
+}
+
+.main .arcana {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.main .arcana .senior-arcana {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.main .arcana .senior-arcana a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.main .arcana .senior-arcana a:hover {
+    transform: scale(1.5, 1.5);
+    color: white;
+}
+
+.main .arcana .minor-arcana {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: end;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.main .arcana .minor-arcana a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.main .arcana .minor-arcana a:hover {
+    transform: scale(1.5, 1.5);
+    color: white;
+}
