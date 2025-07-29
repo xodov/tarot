@@ -1,0 +1,30 @@
+.blog {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(181, 95, 181) 0%, rgb(79, 0, 112) 100%);
+    padding-top: 10vh;
+    gap: 50px;
+}
+
+.blog h2 {
+    margin-top: 5vh;
+    color: white;
+    padding: 25px 150px;
+    border: 3px solid white;
+    background: black;
+}
+
+.blog form {
+    display: flex;
+    gap: 10px;
+}
+
+.blog #post {
+    border: none;
+    border-radius: 5px;
+    background: white;
+    opacity: 0.5;
+}

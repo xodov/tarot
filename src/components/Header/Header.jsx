@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
-import './../Header/header.css'
+import './../Header/header.css';
+import './../Header/adaptiveHeader.css';
 
 function Header() {
     return (
@@ -10,10 +11,10 @@ function Header() {
 					<input type="submit" name="finder" id="finder" value='Найти'/>
 				</form>
 				<ul className='nav'>
-						<li><NavLink to='/' className='active'>Главная</NavLink></li>
-						<li><a href={null}>Блог</a></li>
-						<li><a href={null}>Гадания</a></li>
-						<li><a href={null}>Магия</a></li>
+						<li className='navli'><NavLink to='/'>Главная</NavLink></li>
+						<li className='navli'><NavLink to="/blog">Блог</NavLink></li>
+						<li className='navli'><a href={null}>Гадания</a></li>
+						<li className='navli'><a href={null}>Магия</a></li>
 				</ul>
 			</div>
     )

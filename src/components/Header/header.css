@@ -14,6 +14,12 @@
     color: violet;
 }
 
+.header .burger-menu {
+    color: white;
+    font-size: 40px;
+    display: none;
+}
+
 .header .searching {
     display: flex;
     flex-direction: row;

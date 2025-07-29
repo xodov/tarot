@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./secondMain.css";
+import "./adaptive/adaptiveSecond.css";
 import SubMain from "./SubMain/SubMain";
 import Row2 from "./SubMain/Row2";
 import Row3 from "./SubMain/Row3";
