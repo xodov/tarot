@@ -1,12 +1,11 @@
 .magic-block {
     width: 100vw;
-    height: auto;
+    height: 1085vh;
     padding-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: linear-gradient(rgb(79, 0, 112) 0%, rgb(181, 95, 181) 100%);
-    border-bottom: 5px solid white;
 }
 
 .magic-block h2 {

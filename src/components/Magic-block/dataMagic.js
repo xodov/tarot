@@ -92,9 +92,9 @@ export const magicRow5 = [
     },
 
     {
-        name :'Проклятие',
+        name :'Проклятье',
         imgSrc : 'src/components/Magic-block/images/proklatie.png',
-        text: '15. Проклятие. Проклятие родовое, проклятие на последнем вздохе, на 13 крестов и т.д.' 
+        text: '15. Проклятье. Проклятие родовое, проклятие на последнем вздохе, на 13 крестов и т.д.' 
     },
 ]
 
@@ -157,3 +157,165 @@ export const magicRow8 = [
         text: '24. Карма. Отработка кармических долгов.' 
     },
 ]
+
+export const magicRow9 = [
+    {
+        name : 'Монеты',
+        imgSrc : 'src/components/Magic-block/images/monets.png',
+        text : '25. Монеты. В сочетании с плохими картами говорит о порче на деньги. Чтобы не было денег у человека или порча, сделанная на монеты. Если рядом положительные карты, то возможны ритуалы на прирост доходов.'
+    },
+
+    {
+        name : 'Бумеранг',
+        imgSrc : 'src/components/Magic-block/images/bumerang.png',
+        text : '26. Бумеранг. Возврат негатива пославшему. Защита'
+    },
+
+    {
+        name :'Ангел-хранитель',
+        imgSrc : 'src/components/Magic-block/images/angel.png',
+        text: '27 . Ангел – хранитель. Карта говорит о защите Высших сил. Человек идет правильной дорогой и может ничего не бояться.' 
+    },
+]
+
+export const magicRow10 = [
+    {
+        name : 'Молитва',
+        imgSrc : 'src/components/Magic-block/images/sworn.png',
+        text : '28. Молитва. Совет карты – обратитесь к молитвам. Возможно, посетите храм. Может, человек проводит долгое время в молитвах, «отмаливает» что-то.'
+    },
+
+    {
+        name : 'Лотос',
+        imgSrc : 'src/components/Magic-block/images/lotos.png',
+        text : '29. Лотос. Лотос – символ жизни и счастья. Поскольку он поднимается из грязи, сумев не испачкаться, то почти повсеместно является символом чистоты, совершенства и красоты. Возможно, и были попытки магического воздействия, но человек чист сам по себе, не цепляет, не долетает. Защита.'
+    },
+
+    {
+        name :'Святая вода',
+        imgSrc : 'src/components/Magic-block/images/saintwater.png',
+        text: '30. Святая вода. Следует прибегнуть к помощи святой воды. И все ритуалы, связанные с водой' 
+    },
+]
+
+export const magicRow11 = [
+    {
+        name : 'Пьянство',
+        imgSrc : 'src/components/Magic-block/images/drunk.png',
+        text : '31. Пьянство. Порча на алкоголизм, лярвы.'
+    },
+
+    {
+        name : 'Таро',
+        imgSrc : 'src/components/Magic-block/images/tarot.png',
+        text : '32. Таро. Может значить как таролога, так и совет прибегнуть к помощи карт Таро.'
+    },
+
+    {
+        name :'Ведьма',
+        imgSrc : 'src/components/Magic-block/images/witch.png',
+        text: '33. Ведьма. Значит женщину с очень сильным энергетическим потенциалом или практикующую ведьму.' 
+    },
+]
+
+export const magicRow12 = [
+    {
+        name : 'Целитель',
+        imgSrc : 'src/components/Magic-block/images/celitel.png',
+        text : '34. Целитель. Обращение к целителю.'
+    },
+
+    {
+        name : 'Приведение',
+        imgSrc : 'src/components/Magic-block/images/ghost.png',
+        text : '35. Привидение. Следует провести чистку в доме. Возможна некропривязка.'
+    },
+
+    {
+        name :'Жаба',
+        imgSrc : 'src/components/Magic-block/images/jaba.png',
+        text: '36. Жаба. Порча, на внешность, часто по этой карте выходит порча на лицо (прыщи, старение, чтобы мужчине казаться некрасивой)' 
+    },
+]
+
+export const magicRow13 = [
+    {
+        name : 'Самонастрой',
+        imgSrc : 'src/components/Magic-block/images/samonastroy.png',
+        text : '37. Самонастрой. Человек сам усложняет себе жизнь. Негативные мысли, навязчивые идеи. Часто такие люди обходят всех тарологов, магов, целителей, уверенные, что на них есть порча или другое негативное влияние. Это не так. Все, что происходит с человеком, это результат его мыслей и поступков.'
+    },
+
+    {
+        name : 'Ритуал',
+        imgSrc : 'src/components/Magic-block/images/ritual.png',
+        text : '38. Ритуал. Карты самой сути, что был проведен ритуал. Какой именно – покажут соседние карты.'
+    },
+
+    {
+        name :'Развал',
+        imgSrc : 'src/components/Magic-block/images/razval.png',
+        text: '39. Развал. Порча на развал бизнеса, здоровья. Показывает порчу на внешность.' 
+    },
+]
+
+export const magicRow14 = [
+    {
+        name : 'Перекрёсток',
+        imgSrc : 'src/components/Magic-block/images/crossway.png',
+        text : '40. Перекресток. Магическая работа была сделана на перекрестке. Так же показывает скидывание болезней, безденежья на перекрестках.'
+    },
+
+    {
+        name : 'Соль',
+        imgSrc : 'src/components/Magic-block/images/salt.png',
+        text : '41. Соль. Ритуал на соль. Или чистки солью.'
+    },
+
+    {
+        name :'Талисман',
+        imgSrc : 'src/components/Magic-block/images/talisman.png',
+        text: '42. Талисман. Необходимость прибегнуть к талисманам и оберегам.' 
+    },
+]
+
+export const magicRow15 = [
+    {
+        name : 'Кровь',
+        imgSrc : 'src/components/Magic-block/images/blood.png',
+        text : '43. Кровь. Ритуалы, сделанные на кровь. Привороты на кровь, порчи. Может означать жертву (курица, петух и т.д.)'
+    },
+
+    {
+        name : 'Плод',
+        imgSrc : 'src/components/Magic-block/images/plod.png',
+        text : '44. Плод. Порча на бесплодие или выкидыши. Бывает порча, сделанная на ребенка.'
+    },
+
+    {
+        name :'Заговор',
+        imgSrc : 'src/components/Magic-block/images/zagovor.png',
+        text: '45. Заговор. Заговорная магия, или необходимость к ней прибегнуть.' 
+    },
+]
+
+export const magicRow16 = [
+    {
+        name : 'Крадник',
+        imgSrc : 'src/components/Magic-block/images/thief.png',
+        text : '46. Крадник. Отъем красоты, благополучия, здоровья.'
+    },
+
+    {
+        name : 'Соперница',
+        imgSrc : 'src/components/Magic-block/images/oponentShe.png',
+        text : 'Соперница. Дополнительная карта. Может быть персональной картой соперницы или в раскладе может означать, что на вашем пути есть конкурентка или соперница.'
+    },
+
+    {
+        name :'Соперник',
+        imgSrc : 'src/components/Magic-block/images/oponentHe.png',
+        text: 'Соперник. Дополнительная карта. Может быть персональной картой соперника или в раскладе может означать, что на вашем пути есть конкурент или соперник.' 
+    },
+]
+
+

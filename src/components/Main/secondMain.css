@@ -1,11 +1,10 @@
 .secondMain {
     width: 100vw;
-    height: auto;
+    height: 2460vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: linear-gradient(rgb(79, 0, 112) 0%, rgb(181, 95, 181) 100%);
-    border-bottom: 5px solid white;
 }
 
 .secondMain .hint-line {
